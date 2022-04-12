@@ -1,0 +1,4 @@
+// Module Map File
+MODULEMAP_FILE = ${SRCROOT}/SwiftFramework/module.modulemap
+// Private Module Map File
+MODULEMAP_PRIVATE_FILE = ${SRCROOT}/SwiftFramework/module.private.modulemap

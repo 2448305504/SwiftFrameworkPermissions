@@ -1,0 +1,16 @@
+
+framework module SwiftFramework {
+    umbrella header "SwiftFramework.h"
+    
+    export *
+    
+    // 定义子module，explicit必须显式通过 import SwiftFramework.Teacher去导入
+    // module会搜索两个目录：Headers和PrivateHeaders
+//    explicit module Teacher {
+////    module Teacher {
+//        header "Teacher.h"
+//        export *
+//    }
+    
+    module * { export * }
+}

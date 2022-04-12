@@ -1,0 +1,5 @@
+
+framework module SwiftFramework_Private {
+    header "Teacher.h"
+    export *
+}
